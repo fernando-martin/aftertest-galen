@@ -9,5 +9,5 @@ $ ant
 * Run tests
 
 ```
-$ galen test example.test --htmlreport "reports"
+$ galen test tests/example.test --htmlreport "reports" -Dwebdriver.chrome.driver=lib/chromedriver
 ```
