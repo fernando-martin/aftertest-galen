@@ -1,4 +1,9 @@
-# galen-example
+# Galen example
+
+## Requirements
+* ant 1.9.3
+
+## Quick start
 
 * Download Chromedriver
  
