@@ -1,9 +1,9 @@
 # Declaring objects
 
 @objects
-    header  id    header
-    content id    content
-    menu-item-*     css     #menu li a
+    header    id    header
+    content    id    content
+    menu-item-*    css    #menu li a
         
 
 # Declaring sections
@@ -14,10 +14,9 @@
 
 = Menu =
     menu-item-*:
-        count any menu-item-* is 3
+        count any menu-item-* is 4
 
 = Content =
     content:
         text is "Content"
                 
-
