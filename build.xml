@@ -1,0 +1,17 @@
+<project name="Galen After Test Example" default="chromedriver-download">
+
+    <property name="chromeDriverVersion" value="2.19"/>
+    <property name="chromedriverName" value="chromedriver_linux64.zip"/>
+
+    <target name="chromedriver-download">
+        <echo message="Downloading chromedriver ${chromeDriverVersion}"/>
+        <get taskname="chromedriver-download"
+             src="http://chromedriver.storage.googleapis.com/${chromeDriverVersion}/${chromedriverName}"
+             dest="."
+             skipexisting="true"/>
+
+        <unzip src="${chromedriverName}" dest="."/>
+        <delete file="${chromedriverName}"/>
+        <chmod file="chromedriver" perm="+x"/>
+    </target>
+</project>
