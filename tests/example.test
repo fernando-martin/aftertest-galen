@@ -1,3 +1,12 @@
-Sample page in local Chrome browser
-    selenium chrome http://samples.galenframework.com/tutorial1/tutorial1.html  640x480
-        check specs/example.gspec
+@@ set 
+   	url      http://samples.galenframework.com/tutorial1/tutorial1.html 
+
+@@ parameterized
+    | deviceName | tags      | size     |
+    | mobile     | mobile    | 640x960  |
+    | tablet     | tablet    | 1024x768  |
+    | desktop    | desktop   | 1280x1024 |
+
+Sample page on ${deviceName} device
+    selenium chrome    ${url}    ${size}
+        check specs/example.gspec    --include "${tags}"
