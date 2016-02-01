@@ -13,8 +13,10 @@
         height 100px
 
 = Menu =
-    menu-item-*:
+    global:
         count any menu-item-* is 4
+    
+    menu-item-*:
         height 50px
 
     @for [1 - 4] as index
