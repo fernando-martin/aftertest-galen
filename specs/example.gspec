@@ -29,5 +29,5 @@
 
 = Content =
     content:
-        text is "Content"
+        css background-color is "rgba(240, 240, 208, 1)"
                 
