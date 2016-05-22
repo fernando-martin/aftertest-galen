@@ -1,0 +1,28 @@
+{
+  "name": "galen-example",
+  "description": "Galen example for MadQA meetup",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernando-martin/galen-example.git"
+  },
+  "scripts": {
+    "start": "npm install",
+    "clean": "rm -rf node_modules"
+  },
+  "author": "Fernando Martin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernando-martin/galen-example/issues"
+  },
+  "homepage": "https://github.com/fernando-martin/galen-example#readme",
+  "dependencies": {
+    "async": "^0.9.0",
+    "del": "^2.0.0",
+    "gulp": "^3.8.11",
+    "gulp-serve": "^0.3.0",
+    "gulp-tap": "^0.1.3",
+    "serve-index": "^1.6.1"
+  }
+}
