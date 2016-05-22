@@ -1,6 +1,6 @@
 {
-  "name": "galen-example",
-  "description": "Galen example for MadQA meetup",
+  "name": "aftertest-galen",
+  "description": "Galen example for Software Testers and QA Experts of Madrid meetup",
   "version": "1.0.0",
   "main": "gulpfile.js",
   "repository": {
