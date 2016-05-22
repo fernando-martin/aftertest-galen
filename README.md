@@ -5,7 +5,11 @@
 
 ## Quick start
 
-* npm run start
+* Init
+ 
+```
+npm run start
+```
 
 * Run tests
 
